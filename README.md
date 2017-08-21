@@ -1,3 +1,34 @@
+Modified for ARKit
+
+For working with Swift, reference this: https://github.com/miyabi/unity-swift
+
+Right now, everything has to be done within AppDelegate.swift
+
+### From Unity
+#### Change Build Settings to be Release
+
+### From Xcode
+#### Change Scheme to Release
+Scheme -> Run -> Release
+#### Disable Metal API Validation
+Scheme -> Options -> Metal APT Validation
+#### Add FrameWorks to the project
+MediaToolbox, AVKit, CoreAudio, CoreAudioKit, AudioToolbox, ARKit, AVFoundation
+#### Wrap the UnityAppController into your application delegate
+
+```swift
+import UIKit
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    @objc var currentUnityController: UnityAppController?
+
+...
+}
+```
+
+----
+vvv--- The Original README ---vvv
 # How to use Unity 3D within an iOS app
 
 This is going to appear to be complicated based on the length of this article
