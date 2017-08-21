@@ -11,7 +11,7 @@ Right now, everything has to be done within AppDelegate.swift
 #### Change Scheme to Release
 Scheme -> Run -> Release
 #### Disable Metal API Validation
-Scheme -> Options -> Metal APT Validation
+Scheme -> Options -> Metal API Validation
 #### Add FrameWorks to the project
 MediaToolbox, AVKit, CoreAudio, CoreAudioKit, AudioToolbox, ARKit, AVFoundation
 #### Wrap the UnityAppController into your application delegate
