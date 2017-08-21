@@ -1,6 +1,10 @@
 Modified for ARKit
 
-For working with Swift, reference this: https://github.com/miyabi/unity-swift
+For working with Swift, reference these:
+
+https://github.com/miyabi/unity-swift
+
+http://blog.mousta.ch/post/140780061168
 
 Right now, everything has to be done within AppDelegate.swift
 
